@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { ModeToggle } from "@/components/mode-toggle"
 
 const Header = () => {
   return (
@@ -10,14 +10,15 @@ const Header = () => {
         
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#" className="text-gray-300 hover:text-white transition-colors">Home</a>
+          <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
           <a href="#services" className="text-gray-300 hover:text-white transition-colors">Services</a>
-          <a href="#work" className="text-gray-300 hover:text-white transition-colors">Work</a>
-          <a href="#" className="text-gray-300 hover:text-white transition-colors">About</a>
+          <a href="#product" className="text-gray-300 hover:text-white transition-colors">Product</a>
         </nav>
 
-        <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg">
+        {/* <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg">
           Get Started
-        </Button>
+        </Button> */}
+        <ModeToggle />
       </div>
     </header>
   );

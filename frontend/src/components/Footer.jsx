@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           
           <div className="text-center text-gray-500 text-sm mt-8">
-            © 2024 Agentive. All rights reserved.
+            © 2025 Agentive. All rights reserved.
           </div>
         </div>
       </footer>
